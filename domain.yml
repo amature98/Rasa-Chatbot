@@ -1,0 +1,79 @@
+version: "3.1"
+
+intents:
+  - greet
+  - thanks
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - flight_information
+  - billing_preferences
+  - email_configuration
+  - airport_facilities
+  - fare_announcement
+  - flight_booking
+  - urgent_assistance
+  - reservation_changes
+  - flight_delay
+  - apology
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you? How can I help you today?"
+  
+
+  utter_thanks:
+  - text: "You are most welcome. Be sure to check out our upcoming Easter flight discounts."
+
+
+  utter_goodbye:
+  - text: "Goodbye! If you have any more questions in the future or need assistance, feel free to return anytime. Have a great day!"
+
+  utter_affirm:
+  - text: "Great, carry on!"
+
+  utter_deny:
+  - text: "I apologize. Maybe you could provide further information so that I can assist you better."
+
+  utter_mood_great:
+  - text: "That's great to hear. Carry on."
+
+  utter_mood_unhappy:
+  - text: "Sorry about that. Here is something to cheer you up."
+
+  utter_happy:
+  - text: "I'm glad to hear that you're happy!"
+
+  utter_cheer_up:
+  - text: "Cheer up! Everything will be okay."
+
+  utter_did_that_help:
+  - text: "Did that help you? If you need further assistance, feel free to ask."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Relation Craft."
+
+
+  utter_flight_information:
+  - text: "Sure, I can help you with that. please check out our website for all the information that you need.[Company Website]"
+  
+  utter_fare_announcement:
+  - text: "We are excited to share our upcoming holiday deals for 2024"
+
+  utter_urgent_assistance:
+  - text: "For further enquiries, concerns or complaints, please check out our customer support."
+ 
+  utter_flight_delay:
+  - text: "We are sorry for the inconvenience. Please make another reservation with the following link."
+  
+  utter_apology:
+  - text: "I apologize for the misunderstanding. How can I improve so that I can be of better service to you?"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

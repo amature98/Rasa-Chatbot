@@ -1,0 +1,193 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - morning
+    - hey there
+    - let's go
+    - sasa
+    - mambo
+    - hujambo
+    - jambo
+    - habari yako
+    - niaje
+    - oyaa
+    - habari
+    
+
+   
+   
+
+- intent: thanks
+  examples: |
+    - thank you
+    - thanks
+    - asante
+    - asante sana
+    - nashukuru
+    - wazi
+    - fiti
+    - chonjo
+    - thanks for your help
+    - i appreciate it
+
+   
+
+
+    
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - kwaheri
+    - kesho
+    - tuonane
+    - baadaye
+    - ma time
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - eeeh
+    - sawa
+    - sawasawa
+    - iko sawa
+    - niko sawa
+    - salama
+    - salama kabisa
+    - sawa kabisa
+    - iko chonjo
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - zae
+    - zii
+    - ngori
+    - apana
+    - haiwezi
+    - wapi jooh
+    - nuh
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - niko poa
+    - freshi kabisa
+    - freshi barida
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - buheri wa afya
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - wacha hizo
+    - nimejam
+    - kwenda
+    - kwenda huko
+    - wee kwenda
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - wewe ni binadamu?
+    - wewe ni mwanamke ama mwanaume?
+    - how old are you?
+
+- intent: flight_information
+  examples: |
+    - Can you provide information about [flights](travel_option) with Jambojet?
+    - What are the baggage policies for [connecting flights](travel_option) with different airlines?
+    - How many checked bags are allowed on [Jambojet](airline) flights?
+    - what will the weather be like in [Kisumu] (tomorrow?)
+    - I'm planning a vacation. Any suggestions for [family-friendly destinations in] (Mombasa?)
+
+
+- intent: fare_announcement
+  examples: |
+    - [Kenya Airways](airline) has announced a valentines day deal. How can I book a ticket?
+    - Can you provide details about the limited sale announced by [Kenya Airways](airline)?
+    - What are the terms and conditions for the limited sale announced by [Kenya Airways](airline)?
+
+
+- intent: flight_booking
+  examples: |
+    - I'm looking for [flight options](travel_option) from Nairobi to Mombasa around February 14th. Any recommendations?
+    - Can you suggest airlines with [affordable prices](pricing_preference) for flights from Nairobi to Mombasa?
+    - Which airlines offer the best deals for flights from Nairobi to Mombasa in [February](month)?
+
+- intent: urgent_assistance
+  examples: |
+    - I need [urgent assistance](support_type). Can I speak with a customer service representative?
+    - Is there a [phone number](contact_info) I can call for immediate assistance?
+    - How can I get [urgent help](support_type) with my issue?
+
+
+- intent: flight_delay
+  examples: |
+    - My flight from [Nairobi](departure_city) to [Mombasa](arrival_city) was delayed by 22 hours. How can I claim compensation?
+    - Can you provide information about [compensation](claim_type) for flight delays with JamboJet?
+    - How do I file a compensation [claim](claim_type) for a delayed flight with Kenya Airways?
+
+- intent: apology
+  examples: |
+    - I'm sorry about that.
+    - Sorry for the inconvenience.
+    - My apologies for the confusion.
+    - I apologize for the misunderstanding.
+    - Sorry, that was not my intention.
+
+
